@@ -159,3 +159,54 @@ h2 {
     font-size: 26px;
     font-weight: bold;
 }
+
+.sign-up {
+    background-color: white;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    width: 60vw;
+    padding: 50px 80px;
+    border-radius: 10px;
+}
+
+.left {
+    flex: 2;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.offer {
+    margin-top: 8px;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.sign-up-offer {
+    padding: 10px 30px;
+    background: transparent;
+    border: 1px solid #f9faf8;
+    color: #f9faf8;
+    border-radius: 10px;
+    font-weight: bold;
+}
