@@ -101,7 +101,7 @@ h1 {
 
 .information {
     padding: 32px;
-    background-color: #e5e7eb;
+    background-color: white;
     text-align: center;
     padding-bottom: 40px;
 }
@@ -134,4 +134,28 @@ h2 {
     border: 2px solid #3882f6;
     border-radius: 10px;
     margin-bottom: 12px;
+}
+
+.quotes {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.quote {
+    width: 60vw;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    text-align: left;
+}
+
+.quote-by {
+    text-align: right;
+    width: 30vw;
+    font-size: 26px;
+    font-weight: bold;
 }
